@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact — MAVENSTRIDES</title><link rel="stylesheet" href="assets/styles.css"></head><body>
+<header class="container header"><div class="wordmark">MAVENSTRIDES INC.</div><nav class="nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="training.html">Training</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></header>
+<main class="container" style="padding:40px 0">
+<h1>Contact</h1>
+<p class="lead">Get in touch — info@mavenstrides.com</p>
+
+<section style="margin-top:20px" id="book">
+  <h2>Book a Consultation</h2>
+  <div class="contact-box">
+    <form name="consultation" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="consultation">
+      <p style="display:none"><label>Don’t fill this if you’re human: <input name="bot-field" /></label></p>
+      <label>Name</label><input type="text" name="name" required>
+      <label>Company</label><input type="text" name="company">
+      <label>Email</label><input type="email" name="email" required>
+      <label>Message</label><textarea name="message" rows="4"></textarea>
+      <input type="hidden" name="destination" value="booking@mavenstrides.com">
+      <button type="submit">Request Consultation</button>
+    </form>
+  </div>
+</section>
+
+<section style="margin-top:28px">
+  <h2>General Inquiries</h2>
+  <div class="contact-box">
+    <form name="general" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="general">
+      <p style="display:none"><label>Don’t fill this if you’re human: <input name="bot-field" /></label></p>
+      <label>Name</label><input type="text" name="name" required>
+      <label>Email</label><input type="email" name="email" required>
+      <label>Message</label><textarea name="message" rows="4"></textarea>
+      <input type="hidden" name="destination" value="info@mavenstrides.com">
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="container footer">© 2025 MAVENSTRIDES INC. • <a href="mailto:info@mavenstrides.com" style="color:inherit">info@mavenstrides.com</a></footer>
+</body></html>
