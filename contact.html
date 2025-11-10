@@ -9,7 +9,7 @@
 <section style="margin-top:20px" id="book">
   <h2>Book a Consultation</h2>
   <div class="contact-box">
-    <form name="consultation" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <form name="consultation" method="POST" data-netlify="true" action="/success.html" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="consultation">
       <p style="display:none"><label>Don’t fill this if you’re human: <input name="bot-field" /></label></p>
       <label>Name</label><input type="text" name="name" required>
@@ -25,7 +25,7 @@
 <section style="margin-top:28px">
   <h2>General Inquiries</h2>
   <div class="contact-box">
-    <form name="general" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    <form name="general" method="POST" data-netlify="true" action="/success.html" netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="general">
       <p style="display:none"><label>Don’t fill this if you’re human: <input name="bot-field" /></label></p>
       <label>Name</label><input type="text" name="name" required>
