@@ -26,13 +26,6 @@ h1{font-family:Poppins, sans-serif;font-size:44px;margin-bottom:12px;color:var(-
 .card h3{font-size:18px;color:var(--light);margin-bottom:8px}
 .card p{color:rgba(255,255,255,0.75);font-size:14px}
 
-.coming-soon-overlay{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;display:flex;align-items:flex-start;justify-content:center;pointer-events:none;overflow:hidden}
-.coming-soon-overlay .coming-soon-text{transform:translateY(-140%);animation:dropIn 900ms cubic-bezier(.22,.9,.35,1) forwards;font-size:5vw;font-weight:900;color:white;text-shadow:2px 2px 16px #7A45FF, 0 0 40px #33A8C7;letter-spacing:0.15em;mix-blend-mode:screen;margin-top:14vh}
-
-@keyframes dropIn{
-  to{transform:translateY(0)}
-}
-
 .footer{margin-top:60px;padding:24px 0;color:rgba(255,255,255,0.7);font-size:14px;text-align:center}
 
 /* Contact form */
